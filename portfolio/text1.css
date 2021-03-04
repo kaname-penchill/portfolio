@@ -1,0 +1,519 @@
+/*header--------------------------------------------------*/
+header{
+  widows: 750px;
+  height:750px;
+  background:url(../portfolio/img/IMG_5548.jpg);
+  background-size: auto;
+  background-position: center;
+}
+
+
+header ul {
+  margin-top: 10px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+header ul li{
+  display:inline-block;
+}
+
+.PEN-CHILL img{
+  margin-top:280px;
+  width: 18%;
+  height: auto;
+  
+}
+/*======================================================*/
+
+body{
+  background-color: rgb(255, 252, 249);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* サービス ---------------------------------------------*/
+.setumei img{
+  margin-left: 120px;
+}
+.setumei h5{
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 15pt;
+  margin-left: 80px;
+}
+.setumei h6{
+  font-size: 15pt;
+  margin-left: 80px;
+}
+.setumei section{
+  margin-top: 50px;
+}
+.setumeei-img{
+  width: 30%;
+  height: auto;
+  box-shadow: 5px 5px 	rgba(0,0,0,0.4);
+}
+/* -------------------------------------------------------------------------- */
+
+
+.bg-box {
+  background:linear-gradient(to bottom right,  #eeffff,#c3fcfc);
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 	rgba(0,0,0,0.4);
+}
+
+.bg-box1 {
+  background-color: #e6e6e6;
+  margin-bottom: 60px;
+}
+
+.btn-box1{
+  text-align: center;
+}
+.btn-box2{
+  text-align: center;
+}
+.btn-box2{
+  text-align: center;
+}
+
+.img-box img {/* かなめの写真 */
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.img-box1 {
+  position: relative;
+  width: 100%;
+}
+.img-box1 img {
+  width: 255px;
+  height: auto;
+}
+.img-box1 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		50px;
+    color:			#fff;
+}
+.img-box1 .mask {
+    height:			93%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			20px;
+    left:			0%;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box1:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box2 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.img-box2 img {
+  width: 255px;
+  height: auto;
+}
+.img-box2 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		50px;
+    color:			#fff;
+}
+.img-box2 .mask {
+    height:			87%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			40px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box2:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box3 {
+  position: relative;
+  width: 100%;
+}
+.img-box3 img {
+  width: 255px;
+  height: auto;
+}
+.img-box3 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		50px;
+    color:			#fff;
+}
+.img-box3 .mask {
+    height:			93%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			20px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box3:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box4 {
+  position: relative;
+  width: 100%;
+}
+.img-box4 img {
+  width: 255px;
+  height: auto;
+}
+.img-box4 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		15px;
+    color:			#fff;
+}
+.img-box4 .mask {
+    height:			92%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			20px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box4:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box5 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.img-box5 img {
+  width: 255px;
+  height: auto;
+}
+.img-box5 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		15px;
+    color:			#fff;
+}
+.img-box5 .mask {
+    height:			84%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			40px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box5:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box6 {
+  position: relative;
+  width: 100%;
+}
+.img-box6 img {
+  width: 255px;
+  height: auto;
+}
+.img-box6 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		15px;
+    color:			#fff;
+}
+.img-box6 .mask {
+    height:			92%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			20px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box6:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box7 {
+  position: relative;
+  width: 100%;
+}
+.img-box7 img {
+  width: 255px;
+  height: auto;
+}
+.img-box7 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		80px;
+    color:			#fff;
+}
+.img-box7 .mask {
+    height:			94%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			20px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box7:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box8 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.img-box8 img {
+  width: 255px;
+  height: auto;
+  
+}
+.img-box8 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		80px;
+    color:			#fff;
+}
+.img-box8 .mask {
+    height:			88%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			43px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box8:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.img-box9 {
+  position: relative;
+  width: 100%;
+}
+.img-box9 img {
+  width: 255px;
+  height: auto;
+}
+.img-box9 .caption {
+    font-size:		130%;
+    text-align: 		center;
+    padding-top:		80px;
+    color:			#fff;
+}
+.img-box9 .mask {
+    height:			94%;
+    position:		absolute;	/* 絶対位置指定 */
+    top:			20px;
+    left:			0;
+    opacity:		0;	/* マスクを表示しない */
+    background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+    -webkit-transition:	all 0.2s ease;
+    transition:		all 0.2s ease;
+}
+.img-box9:hover .mask {
+opacity:		1;	/* マスクを表示する */
+}
+
+.pr-box{
+  margin-bottom: 20px;
+}
+
+/* 画像高さ */
+.topS{
+margin-top: 20px;
+}
+.bottomS{
+  margin-top: 40px;
+}
+.lastS{
+  margin-top: 20px;
+  }
+
+.topc{
+  margin-top: 20px;
+}
+.bottomc{
+  margin-top: 40px;
+}
+.lastc{
+  margin-top: 20px;
+}
+
+.topi{
+  margin-top: 20px;
+}
+.bottomi{
+  margin-top: 40px;
+}
+.lasti{
+  margin-top: 20px;
+}
+
+.topx{
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.img-box img{
+  width: 350px;
+  height: auto;
+  margin-left: 50px;
+}
+
+h1{      /*見出しフォント*/
+  font-size: 35pt;
+  text-align: center;
+  padding-top: 20px;;
+  padding-bottom: 15px;
+}
+
+h2{
+  font-size: 35px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-bottom: 5px;;
+}
+
+
+/*ボタン------------------------------------------*/
+.btn{
+  color:#fff;
+  background-color:#FF9966;
+  padding: 15px 40px;
+}
+.btn{
+  color:#fff;
+  background:#FF9966;
+}
+.btn{
+  border-radius:100vh;
+  margin-top: 80px;
+  box-shadow: 3px 3px 	rgba(0,0,0,0.4);
+}
+
+.btn1{
+margin-top: 130px;
+}
+.btn2{
+  margin-top: 100px;
+}
+.btn3{
+  margin-top: 150px;
+}
+
+.order-4{
+  order: 4;
+}
+.order-1{
+  order: 1;
+}
+.order-2{
+  order: 2;
+}
+.order-3{
+  order: 3;
+}
+
+@media (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  .btn1{
+    margin-top: 50px;
+    margin-right: 10px;
+    }
+    .btn2{
+      margin-top: 50px;
+    margin-right: 10px;
+    }
+    .btn3{
+      margin-top: 50px;
+    margin-right: 10px;
+    }
+    .img-box1{
+      margin-top: 40px;
+      margin-left:40px
+    }
+    .img-box2{
+      margin-left:40px
+    }
+    .img-box3{
+      margin-left:40px
+    }
+    .img-box4{
+      margin-top: 40px;
+      margin-left:40px
+    }
+    .img-box5{
+      margin-left:40px
+    }
+    .img-box6{
+      margin-left:40px
+    }
+    .img-box7{
+      margin-top: 40px;
+      margin-left:40px
+    }
+    .img-box8{
+      margin-left:40px
+    }
+    .img-box9{
+      margin-left:40px
+    }
+    .img-box img{
+      width: 300px;
+      height:auto;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+    }
+    
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+    .img-box img{
+      margin-left: 0px;
+    }
+}
+/*------------------------------------------------*/
+
+/*footer*//*------------------------------------------*/
+
+footer{
+  widows: 380px;
+  height:200px;
+  background-color: #323232;
+}
+.margin-top{
+  margin-top: 90px;
+}
+/*--------------------------------------------------*/
